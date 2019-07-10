@@ -1,0 +1,114 @@
+body {
+	background-color: #f8f9fa !important;
+}
+
+.navbar {
+	position: fixed !important;
+	top: 0;
+	width: 100%;
+	z-index: 5000;
+	opacity: 0.88;
+}
+
+.card-category {
+	color: #888;
+	margin-top: -15px;
+	font-size: 15px;
+}
+
+.listing {
+	flex: 100% !important;
+	max-width: 100% !important;
+}
+
+.listing-card {
+	flex-direction: row;
+}
+
+.listing-img {
+	width: 35%;
+}
+
+.bd-placeholder-img {
+	background-color: #999;
+	-webkit-animation: random 5s infinite;
+    animation: random 5s infinite;
+}
+
+.bidmeta {
+	margin-top: 15px;
+}
+
+.metatitle {
+	color: #666;
+	font-size: 14px;
+}
+
+@keyframes  random {
+    15% { background-color: #ffdae0; } 
+    30% { background-color: #dae0ff; } 
+    45% { background-color: #e0ffda; } 
+    60% { background-color: #daf3ff; }
+    75% { background-color: #ffe7da; }  
+}
+
+.jumbotron {
+	margin-top: 56px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+.btn-outline-dark {
+	border-color: #fff;
+}
+.btn-outline-dark:hover{
+	border-color: #343a40;
+	color: #000;
+	background-color: #fff !important;
+}
+	  
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
